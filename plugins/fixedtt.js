@@ -317,12 +317,7 @@ cmd({
       sections
     }, { quoted: mek });
 
-  } catch (e) {
-    console.error(e);
-    return reply('⚠️ Something went wrong while processing the request.');
-  }
-});
-
+  
 if (config.MODE === 'button') {
   const listData = {
     title: "𝐕𝐢𝐝𝐞𝐨 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐨𝐧 ⇲",
